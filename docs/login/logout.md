@@ -14,6 +14,8 @@
 
 > https://jw.ustc.edu.cn/logout
 
+*请求方式：GET*
+
 **URL 参数：**
 
 |参数名|类型|内容|
@@ -24,4 +26,4 @@
 
 若 cookie 中没有 `SESSION` 字段则会会设置 `SESSION`
 
-退出成功会清除 cookie 中的 `SESSION` 字段和 `SRVNAME` 字段，并设置 `rememberMe=deleteMe`
+退出成功会清除 cookie 中的 `SESSION` 字段和 `SRVNAME` 字段
